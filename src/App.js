@@ -127,6 +127,7 @@ const Input = (props) => (
     style={{}}
     css={{
       height: 23,
+      width: '100%',
       border: '1px solid #EDEBED',
       borderRadius: 2,
       outline: 'none',
