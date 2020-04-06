@@ -84,7 +84,7 @@ const Swatch = (props) => (
   />
 )
 
-const Label = (props) => <label style={{fontWeight: 500}} {...props} />
+const Label = (props) => <label style={{fontWeight: 500, overflow: 'scroll',  whiteSpace: 'nowrap'}} {...props} />
 
 const InlineButton = (props) => (
   <button
